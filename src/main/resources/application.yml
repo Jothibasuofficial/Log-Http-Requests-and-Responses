@@ -1,0 +1,10 @@
+spring.data.mongodb: 
+   host: localhost
+   port: 27017
+   authentication-database: admin
+   username: jothibasu
+   password: test@123
+   database: test
+   
+management.endpoints:
+   web.exposure.include:*
